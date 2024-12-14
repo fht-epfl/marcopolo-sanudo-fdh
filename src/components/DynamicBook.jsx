@@ -9,7 +9,7 @@ import ReactGoogleSlides from './SlideViewer';
 
 const SlideViewer = () => {
     return (
-        <div className="h-full w-full flex items-center justify-center">
+        <div id="datastory" className="h-full w-full flex items-center justify-center">
             <ReactGoogleSlides
                 width={680}
                 height={418}
