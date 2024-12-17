@@ -3,10 +3,10 @@ import { atom, useAtom } from "jotai";
 const pictures = [
     "people1",
     "people2",
-    "place1",
-    "place2",
     "observation1",
     "observation2",
+    "place1",
+    "place2",
     "relation1",
     "relation2",
     "relation3",
@@ -35,7 +35,7 @@ export const UI = () => {
     const [page, setPage] = useAtom(pageAtom);
 
     // 替换中间的页面标签
-    const labels = ["Cover", "PEOPLE", "PLACE", "OBSERVATION", "RELATION (BSC)", "RELATION (ADV)", "Back Cover"];
+    const labels = ["Cover", "PEOPLE", "OBSERVATION", "PLACE", "RELATION (BSC)", "RELATION (ADV)", "Back Cover"];
 
     return (
         <>
