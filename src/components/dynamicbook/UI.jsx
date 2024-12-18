@@ -34,7 +34,7 @@ pages.push({
 export const UI = () => {
     const [page, setPage] = useAtom(pageAtom);
 
-    // 替换中间的页面标签
+    // change
     const labels = ["Cover", "PEOPLE", "OBSERVATION", "PLACE", "RELATION (BSC)", "RELATION (ADV)", "Back Cover"];
 
     return (
